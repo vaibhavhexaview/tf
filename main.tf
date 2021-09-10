@@ -20,6 +20,6 @@ resource "aws_instance" "tfdemoec2" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "tfdemoec2"
+    Name = "tfec2"
   }
 }
