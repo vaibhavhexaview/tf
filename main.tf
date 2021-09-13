@@ -15,7 +15,7 @@ provider "aws" {
  }
 
 
-resource "aws_instance" "tfdemoec2" {
+resource "aws_instance" "tf_EC2" {
   ami           = "ami-0d058fe428540cd89"
   instance_type = "t2.micro"
 
