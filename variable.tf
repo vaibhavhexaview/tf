@@ -10,5 +10,5 @@ variable "region" {
 #Instance Names
 variable "ec2_name" {
   type = string
-  default = "myUbuntuServer"
+  default = "tf_EC2"
 }
