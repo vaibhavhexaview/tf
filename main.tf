@@ -2,6 +2,7 @@ resource "aws_s3_bucket" "tfbucket" {
   bucket = "tfbucket-hexa"
   acl    = "private"
 
+ force_destroy = true
   versioning {
     enabled = true
   }
