@@ -20,6 +20,6 @@ resource "aws_instance" "tfdemoec2" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "tfec2"
+    Name = var.ec2_name
   }
 }
