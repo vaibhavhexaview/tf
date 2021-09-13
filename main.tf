@@ -11,7 +11,7 @@ terraform {
 
 provider "aws" {
   region = "ap-southeast-1"
-  shared_credentials_file = "/home/vaibhavg/.aws/credentials"
+  shared_credentials_file = var.credentials_loc
  }
 
 
