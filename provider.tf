@@ -8,5 +8,5 @@ terraform {
 }
 provider "aws" {
   region = var.region
-  shared_credentials_file = var.credentials_loc
+#  shared_credentials_file = var.credentials_loc
  }
