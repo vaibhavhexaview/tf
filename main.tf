@@ -62,7 +62,7 @@ resource "aws_instance" "tf_EC2" {
   ami           = "ami-0d058fe428540cd89"
   instance_type = "t2.micro"
   availability_zone = "ap-southeast-1a"
-  key_name = "tf-key"
+#  key_name = "tf-key"
   security_groups = [ "TerraDemoSG" ]
   user_data = <<-EOF
                #!/bin/bash
